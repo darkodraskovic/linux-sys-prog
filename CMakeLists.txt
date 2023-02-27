@@ -12,8 +12,8 @@ add_executable(main src/01_template/main.c)
 # target_include_directories(main PUBLIC src)
 
 add_executable(02_File_IO src/02_File_IO/main.c)
-
 add_executable(03_select src/03_select/main.c)
+add_executable(04_poll src/04_poll/main.c)
 
 # TESTS
 
