@@ -15,6 +15,7 @@ add_executable(02_File_IO src/02_File_IO/main.c)
 add_executable(03_select src/03_select/main.c)
 add_executable(04_poll src/04_poll/main.c)
 add_executable(05_wait src/05_wait/main.c)
+add_executable(06_buffered_IO src/06_buffered_IO/main.c)
 
 # TESTS
 
