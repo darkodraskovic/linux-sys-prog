@@ -4,18 +4,21 @@ project (prog)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")  
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-SET(CMAKE_C_FLAGS "-g -Wall -std=gnu11 -O0")
+set(CMAKE_C_FLAGS "-g -Wall -std=gnu11 -O0")
 
 # MAIN
 
 add_executable(main src/01_template/main.c)
 # target_include_directories(main PUBLIC src)
 
+add_executable(00_playground src/00_playground/main.c)
 add_executable(02_File_IO src/02_File_IO/main.c)
 add_executable(03_select src/03_select/main.c)
 add_executable(04_poll src/04_poll/main.c)
 add_executable(05_wait src/05_wait/main.c)
 add_executable(06_buffered_IO src/06_buffered_IO/main.c)
+add_executable(07_clearerr src/07_clearerr/main.c)
+add_executable(08_endianess src/08_endianess/main.c)
 
 # TESTS
 
