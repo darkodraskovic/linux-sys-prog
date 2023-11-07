@@ -19,6 +19,7 @@ add_executable(05_wait src/05_wait/main.c)
 add_executable(06_buffered_IO src/06_buffered_IO/main.c)
 add_executable(07_clearerr src/07_clearerr/main.c)
 add_executable(08_endianess src/08_endianess/main.c)
+add_executable(09_bitwise_ops src/09_bitwise_ops/main.c)
 
 # TESTS
 

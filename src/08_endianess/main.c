@@ -44,5 +44,9 @@ int main(int argc, char** argv) {
   float c = 3510593.0;
   show_float(c);
 
+  printf("solution to 2.7:\n");
+  const char* m = "mnopqr";
+  show_bytes((byte_pointer)m, strlen(m));
+
   return 0;
 }
